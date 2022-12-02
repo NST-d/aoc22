@@ -1,4 +1,3 @@
-import java.io.File
 import kotlin.math.max
 
 fun main() {
@@ -26,11 +25,11 @@ fun main() {
 
 
     // test if implementation meets criteria from the description, like:
-    val testInput = File("src/day01","Day01_test.txt").readLines()
+    val testInput = readTestLines("Day01")
     check(part1(testInput) == 24000)
 
-    val inputLines = File("src/day01","Day01.txt").readLines()
-    val inputString = File("src/day01","Day01.txt").readText().trimIndent()
+    val inputLines = readInputLines("Day01")
+    val inputString = readInputString("Day01").trimIndent()
 
     println(part1(inputLines))
     println(part2(inputString))
