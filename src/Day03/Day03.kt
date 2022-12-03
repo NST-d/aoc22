@@ -13,8 +13,7 @@ fun main() {
 
                 var value = 0
 
-                (left.toCharArray()).distinct().forEach {
-                    c: Char ->
+                (left.toCharArray()).distinct().forEach { c: Char ->
                     if (right.contains(c)){
                         if(c.isUpperCase()){
                             value += c - 'A' + 27
@@ -29,8 +28,7 @@ fun main() {
 
     fun part2(input: List<String>): Int =
         input.withIndex().groupBy {  (it.index/3) }.values
-            .sumOf {
-                group ->
+            .sumOf { group ->
                 var value = 0
 
                 group[0].value.toCharArray().distinct().forEach { c: Char ->
