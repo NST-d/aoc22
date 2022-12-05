@@ -16,7 +16,8 @@ fun main() {
 
         cratesString.reversed()
             .forEach { it ->
-                "$it ".chunked(4).forEachIndexed { j, entry ->
+                //entry is "[A] " -> max 4 chars
+                it.chunked(4).forEachIndexed { j, entry ->
                     if (entry.isNotBlank()) {
                         crates[j].push(entry[1])
                     }
