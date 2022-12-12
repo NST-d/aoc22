@@ -1,7 +1,6 @@
 package Day10
 
-import readInputLines
-import readTestLines
+import utils.*
 
 class Machine(instructions: List<Instruction>) {
 

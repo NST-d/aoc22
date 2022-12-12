@@ -1,7 +1,6 @@
 package Day04
 
-import readInputLines
-import readTestLines
+import utils.*
 
 fun main() {
     fun part1(input: List<String>)=

@@ -1,7 +1,6 @@
 package Day05
 
-import readInputString
-import readTestString
+import utils.*
 import java.util.*
 
 fun main() {

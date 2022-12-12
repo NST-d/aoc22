@@ -1,3 +1,5 @@
+import utils.*
+
 fun main() {
     data class FileTree(val name: String,
                         var size: Int = 0,

@@ -1,8 +1,6 @@
 package Day11
 
-import readInputString
-import readTestString
-
+import utils.*
 operator fun <T> List<T>.component6() = this[5]
 
 class Monkey(

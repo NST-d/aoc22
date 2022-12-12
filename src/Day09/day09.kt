@@ -1,7 +1,6 @@
 package Day09
 
-import readInputLines
-import readTestLines
+import utils.*
 import kotlin.math.abs
 import kotlin.math.sign
 

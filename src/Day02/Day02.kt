@@ -1,7 +1,6 @@
 package Day02
 
-import readInputLines
-import readTestLines
+import utils.*
 enum class RPS(val score: Int){
     ROCK(1),
     PAPER(2),
